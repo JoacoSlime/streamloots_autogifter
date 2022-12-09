@@ -1,0 +1,7 @@
+{
+    "AUTH_TOKEN": "Insert your auth token here",
+    "ITEM_ID": "Insert your pack id here or configure it on first start",
+    "CARDS": 3,
+    "TIMES": 1,
+    "CHANNEL_NAME": "Insert your channel name here"
+}
