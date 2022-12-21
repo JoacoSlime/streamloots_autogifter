@@ -22,7 +22,7 @@
 
         `decodeURIComponent(document.cookie).split('; ').forEach(val => { if (val.indexOf("AUTH_TOKEN=") === 0) console.log(val.substring("AUTH_TOKEN=".length));});` 
 
-        **WARNING:** DON'T SHARE OR SHOW YOUR CODE TO ANYONE. 
+        **WARNING:** DON'T SHARE OR SHOW YOUR CODE TO ANYONE. THIS IS NOT A JOKE. 
     2) In the second window, insert your channel name. 
     3) In the third window select which collection you want to give. 
 3) Done! You can edit the number of cards per pack or the number of packs sent in config.json **(default recommended)**. 
@@ -64,7 +64,7 @@ The script usage is simple, use the username you want to give a pack as an argum
 
         `decodeURIComponent(document.cookie).split('; ').forEach(val => { if (val.indexOf("AUTH_TOKEN=") === 0) console.log(val.substring("AUTH_TOKEN=".length));});`. 
 
-        **ADVERTENCIA:** NO MUESTRES NI COMPARTAS TU CÓDIGO CON NADIE. 
+        **ADVERTENCIA:** NO MUESTRES NI COMPARTAS TU CÓDIGO CON NADIE. ESTO NO ES BROMA.
     2) En la segunda ventana, introduce el nombre de tu canal. 
     3) En la tercera ventana selecciona que colección quieres regalar. 
 3) ¡Listo! Puedes editar el número de cartas por paquete o el número de paquetes enviados en config.json **(recomendado por defecto)**. 
@@ -82,7 +82,7 @@ El uso del script es simple, utiliza el nombre de usuario al que quieres dar un 
 **Ten en cuenta**:
     
 - Puedes restablecer la configuración usando: `python ./streamloots.py --reset`  
-- El número máximo de cartas por paquete es 3. 
+- El número máximo de cartas por paquete es 3 si es que no eres, como mínimo, afiliado de streamloots.
 - El número máximo de paquetes que se pueden enviar al mismo tiempo es de 5. 
 - Streamloots sólo aceptará un máximo de 10 regalos, el contador se reinicia cuando alguien compra un cofre. 
 - Si el script imprime el código `201`, entonces el regalo fue aceptado, el código `400` significa que la petición falló. 
